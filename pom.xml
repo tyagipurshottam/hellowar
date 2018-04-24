@@ -32,7 +32,7 @@
     <version>0.4.10</version>
     <configuration>
         <imageName>35.187.233.182/${project.artifactId}.${version}</imageName>
-        <dockerDirectory>${project.basedir}/dockerfile</dockerDirectory>
+        <dockerDirectory>${project.basedir}</dockerDirectory>
 		<pushImage>true</pushImage> 
     </configuration>
 

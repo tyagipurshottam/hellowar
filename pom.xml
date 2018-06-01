@@ -31,7 +31,7 @@
     <artifactId>docker-maven-plugin</artifactId>
     <version>0.4.10</version>
     <configuration>
-        <imageName>35.185.179.71/${project.artifactId}-${version}</imageName>
+        <imageName>35.154.8.234:5000/${project.artifactId}-${version}</imageName>
         <dockerDirectory>${project.basedir}</dockerDirectory>
 		<pushImage>true</pushImage> 
     </configuration>
